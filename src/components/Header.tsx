@@ -1,5 +1,5 @@
 import { Text, View } from "react-native";
-import { styles } from "../constants/styles";
+import { useStyles } from "../context/ThemeContext";
 
 export const Header = ({
   userName,
@@ -8,6 +8,8 @@ export const Header = ({
   userName: string;
   streakDays: number;
 }) => {
+  const styles = useStyles();
+
   return (
     <View style={styles.header}>
       <Text style={styles.headerTitle}>Halo, {userName}! 👋</Text>

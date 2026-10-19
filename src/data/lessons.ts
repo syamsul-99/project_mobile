@@ -1,6 +1,5 @@
 import { Lesson } from "../types";
 
-// Array of Objects: daftar pelajaran Bahasa Inggris
 export const lessons: Lesson[] = [
   {
     id: 1,

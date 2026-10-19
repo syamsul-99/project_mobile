@@ -1,5 +1,5 @@
 import { Text, View } from "react-native";
-import { styles } from "../constants/styles";
+import { useStyles } from "../context/ThemeContext";
 
 export const ProgressBar = ({
   completed,
@@ -8,6 +8,7 @@ export const ProgressBar = ({
   completed: number;
   total: number;
 }) => {
+  const styles = useStyles();
   const percentage = total > 0 ? Math.round((completed / total) * 100) : 0;
 
   return (
