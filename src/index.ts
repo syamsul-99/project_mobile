@@ -12,3 +12,11 @@ export interface Lesson {
   completedWords: number;
   icon: string;
 }
+
+export interface Question {
+  id: number;
+  lessonId: number;
+  question: string;
+  options: string[];
+  correctAnswer: string;
+}
