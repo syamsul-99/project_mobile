@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "my-app",
-    "slug": "my-app",
+    "name": "testmobile",
+    "slug": "testmobile",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "myapp",
+    "scheme": "testmobile",
     "userInterfaceStyle": "automatic",
     "ios": {
       "icon": "./assets/expo.icon"
@@ -18,7 +18,7 @@
         "monochromeImage": "./assets/images/android-icon-monochrome.png"
       },
       "predictiveBackGestureEnabled": false,
-      "package": "com.syamsul_falah.myapp"
+      "package": "com.djody328.testmobile"
     },
     "web": {
       "output": "static",
@@ -42,7 +42,7 @@
     "extra": {
       "router": {},
       "eas": {
-        "projectId": "4e863291-c941-4812-84ae-9066b100d00d"
+        "projectId": "2a16b704-6467-429e-9738-7dafbd0a101b"
       }
     }
   }
